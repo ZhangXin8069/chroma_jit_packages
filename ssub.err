@@ -11,24 +11,14 @@ Also make sure that all modulefiles written in TCL start with the string
 
 
 Lmod has detected the following error: The following module(s) are unknown:
-"openmpi/4.1.5-gcc-10.3.0"
+"hdf5/1.14.0-gcc-10.3.0"
 
 Please check the spelling or version number. Also try "module spider ..."
 It is also possible your cache file is out-of-date; it may help to try:
-  $ module --ignore-cache load "openmpi/4.1.5-gcc-10.3.0"
+  $ module --ignore-cache load "hdf5/1.14.0-gcc-10.3.0"
 
 Also make sure that all modulefiles written in TCL start with the string
 #%Module
 
 
 
-tar (child): /public/home/zhangxin/pyquda_packages/chroma_jit_packages: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
-bash: ./build_qmp.sh: No such file or directory
-bash: ./build_libxml2.sh: No such file or directory
-bash: ./build_llvm.sh: No such file or directory
-bash: ./build_qdpjit-double.sh: No such file or directory
-bash: ./build_quda_qdpxx_double-cmake.sh: No such file or directory
-bash: ./build_chroma-double_quda.sh: No such file or directory
