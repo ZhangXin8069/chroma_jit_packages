@@ -1,9 +1,13 @@
-# chroma_jit_pkgs
+> # Copied from [here](https://jeffersonlab.github.io/chroma/),
+> just for reference,
+> thanks to the author!
+*******************
+# chroma_jit_packages
+install
 ```
-tar xzf chroma_jit_pkgs.tar.gz
-cd chroma_jit_pkgs/install
+bash ./install.sh
 ```
->then configure env.sh
+when you want to run ,do this
 ```
-bash install.sh
+source ./env.sh
 ```
