@@ -117,3 +117,22 @@ autoreconf: 'configure.ac' or 'configure.in' is required
 -- Performing Test HAVE_STEADY_CLOCK
 -- Performing Test HAVE_STEADY_CLOCK
 -- Performing Test HAVE_STEADY_CLOCK -- success
+In file included from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.h:25,
+                 from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/RegisterInfoEmitter.cpp:15:
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In member function 'void llvm::SparseBitVector<ElementSize>::SparseBitVectorIterator::AdvanceToFirstNonZero() [with unsigned int ElementSize = 128]':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+In file included from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.h:25,
+                 from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.cpp:14:
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In member function 'unsigned int llvm::CodeGenRegister::getWeight(const llvm::CodeGenRegBank&) const':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+slurmstepd: error: *** JOB 187163 ON gpu024 CANCELLED AT 2023-08-04T19:49:03 DUE TO TIME LIMIT ***
