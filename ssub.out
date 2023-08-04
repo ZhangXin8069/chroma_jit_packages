@@ -13,3 +13,972 @@ HOME:/public/home/zhangxin/zuda
 ~/pyquda_packages ~ ~/chroma_jit_packages
 ~ ~/chroma_jit_packages
 ~/external-libraries ~
+~/external-libraries/chroma_jit_packages/install ~/external-libraries ~
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/qmp ~/external-libraries/chroma_jit_packages/install/build/build_qmp ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_qmp ~/external-libraries/chroma_jit_packages/install
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for x86_64-linux-gnu-strip... no
+checking for strip... strip
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-linux-gnu-c99... mpicc
+checking whether the C compiler works... no
+~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/libxml2 ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+checking build system type... x86_64-suse-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for x86_64-unknown-linux-strip... no
+checking for strip... strip
+checking for x86_64-unknown-linux-gcc... mpicc
+checking whether the C compiler works... no
+~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/llvm ~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- clang project is disabled
+-- clang-tools-extra project is disabled
+-- compiler-rt project is disabled
+-- debuginfo-tests project is disabled
+-- libc project is disabled
+-- libclc project is disabled
+-- libcxx project is disabled
+-- libcxxabi project is disabled
+-- libunwind project is disabled
+-- lld project is disabled
+-- lldb project is disabled
+-- mlir project is disabled
+-- openmp project is disabled
+-- parallel-libs project is disabled
+-- polly project is disabled
+-- pstl project is disabled
+-- flang project is disabled
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for link.h
+-- Looking for link.h - found
+-- Looking for malloc/malloc.h
+-- Looking for malloc/malloc.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for sys/ioctl.h
+-- Looking for sys/ioctl.h - found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sysexits.h
+-- Looking for sysexits.h - found
+-- Looking for termios.h
+-- Looking for termios.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for valgrind/valgrind.h
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for FE_ALL_EXCEPT
+-- Looking for FE_ALL_EXCEPT - found
+-- Looking for FE_INEXACT
+-- Looking for FE_INEXACT - found
+-- Looking for mach/mach.h
+-- Looking for mach/mach.h - not found
+-- Looking for histedit.h
+-- Looking for histedit.h - not found
+-- Looking for CrashReporterClient.h
+-- Looking for CrashReporterClient.h - not found
+-- Looking for linux/magic.h
+-- Looking for linux/magic.h - found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_getspecific in pthread
+-- Looking for pthread_getspecific in pthread - found
+-- Looking for pthread_rwlock_init in pthread
+-- Looking for pthread_rwlock_init in pthread - found
+-- Looking for pthread_mutex_lock in pthread
+-- Looking for pthread_mutex_lock in pthread - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for pfm_initialize in pfm
+-- Looking for pfm_initialize in pfm - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Looking for xar_open in xar
+-- Looking for xar_open in xar - not found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Looking for __register_frame
+-- Looking for __register_frame - found
+-- Looking for __deregister_frame
+-- Looking for __deregister_frame - found
+-- Looking for _Unwind_Backtrace
+-- Looking for _Unwind_Backtrace - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for isatty
+-- Looking for isatty - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Looking for sigaltstack
+-- Looking for sigaltstack - found
+-- Looking for lseek64
+-- Looking for lseek64 - found
+-- Looking for mallctl
+-- Looking for mallctl - not found
+-- Looking for mallinfo
+-- Looking for mallinfo - found
+-- Looking for malloc_zone_statistics
+-- Looking for malloc_zone_statistics - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for posix_spawn
+-- Looking for posix_spawn - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for sbrk
+-- Looking for sbrk - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for strerror_s
+-- Looking for strerror_s - not found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dladdr
+-- Looking for dladdr - not found
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB - Success
+-- Performing Test LLVM_HAS_ATOMICS
+-- Performing Test LLVM_HAS_ATOMICS - Success
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG - Success
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG - Failed
+-- Performing Test HAS_MAYBE_UNINITIALIZED
+-- Performing Test HAS_MAYBE_UNINITIALIZED - Success
+-- Native target architecture is X86
+-- Threads enabled.
+-- Doxygen disabled.
+-- Go bindings disabled.
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- OCaml bindings disabled.
+-- Could NOT find Python module pygments
+-- Could NOT find Python module pygments.lexers.c_cpp
+-- Could NOT find Python module yaml
+-- LLVM host triple: x86_64-unknown-linux-gnu
+-- LLVM default target triple: x86_64-unknown-linux-gnu
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG - Success
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG - Success
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG - Success
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG - Success
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Success
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG - Success
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Found Python3: /public/soft/linux-centos7-x86_64/gcc-10.3.0/miniconda3-22.11.1-jrusysshr36o4fjbexlhrpljufoxhu4b/bin/python3.10 (found version "3.10.8") found components: Interpreter 
+-- Linker detection: GNU ld
+-- Found Git: /public/soft/linux-centos7-x86_64/gcc-10.3.0/git-2.40.0-723pst5pdujmhe6kflhgqyhq32ic456l/bin/git (found version "2.40.0") 
+-- Targeting X86
+-- Targeting NVPTX
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Failed to find LLVM FileCheck
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /public/home/zhangxin/external-libraries/chroma_jit_packages/install/build/build_llvm
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmWriterEmitter.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmMatcherEmitter.cpp.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[  0%] Generating VCSRevision.h
+[  0%] Creating export file for LLVMHello
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmWriterInst.cpp.o
+[  0%] Building CXX object utils/PerfectShuffle/CMakeFiles/llvm-PerfectShuffle.dir/PerfectShuffle.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/Attributes.cpp.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CallingConvEmitter.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeEmitterGen.cpp.o
+[  0%] Building C object utils/count/CMakeFiles/count.dir/count.c.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenDAGPatterns.cpp.o
+[  0%] Creating export file for LTO
+[  0%] Creating export file for BugpointPasses
+[  0%] Creating export file for Remarks
+[  0%] Built target LLVMHello_exports
+[  0%] Built target llvm_vcsrevision_h
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenHwModes.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenInstruction.cpp.o
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/DynamicLibraryLib.dir/ExportedFuncs.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenMapTable.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenRegisters.cpp.o
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/PipSqueak.dir/PipSqueak.cpp.o
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/SecondLib.dir/PipSqueak.cpp.o
+[  1%] Built target LTO_exports
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenSchedule.cpp.o
+[  1%] Built target BugpointPasses_exports
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenTarget.cpp.o
+[  1%] Built target Remarks_exports
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelEmitter.cpp.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherEmitter.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherGen.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherOpt.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[  3%] Linking C executable ../../bin/count
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcher.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DFAEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DFAPacketizerEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DirectiveEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DisassemblerEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/ExegesisEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/FastISelEmitter.cpp.o
+[  3%] Built target count
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/FixedLenDecoderEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/GICombinerEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o
+[  3%] Linking CXX static library ../../../lib/libDynamicLibraryLib.a
+[  3%] Built target DynamicLibraryLib
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/GlobalISelEmitter.cpp.o
+[  3%] Linking CXX shared library PipSqueak.so
+[  3%] Linking CXX shared library SecondLib.so
+[  3%] Built target PipSqueak
+[  3%] Built target SecondLib
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InfoByHwMode.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InstrInfoEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InstrDocsEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/IntrinsicEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptEmitter.cpp.o
+[  3%] Linking CXX executable ../../bin/llvm-PerfectShuffle
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptParserEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptRSTEmitter.cpp.o
+[  3%] Built target llvm-PerfectShuffle
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/PredicateExpander.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/PseudoLoweringEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RISCVCompressInstEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RegisterBankEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RegisterInfoEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SDNodeProperties.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SearchableTableEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SubtargetEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SubtargetFeatureInfo.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/TableGen.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/Types.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86DisassemblerTables.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86EVEX2VEXTablesEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86FoldTablesEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86ModRMFilters.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86RecognizableInstr.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/WebAssemblyDisassemblerEmitter.cpp.o
+[  5%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CTagsEmitter.cpp.o
+[  5%] Linking CXX shared library ../libLLVMDemangle.so
+[  5%] Built target LLVMDemangle
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AArch64TargetParser.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ABIBreak.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMTargetParser.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFixedPoint.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o
+[  5%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APSInt.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMBuildAttrs.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMWinEH.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Allocator.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamError.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamReader.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamRef.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamWriter.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BlockFrequency.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BranchProbability.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BuryPointer.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CachePruning.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Chrono.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/circular_raw_ostream.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/COM.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Compression.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CRC.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ConvertUTF.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ConvertUTFWrapper.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CrashRecoveryContext.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DataExtractor.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Debug.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DebugCounter.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DeltaAlgorithm.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DAGDeltaAlgorithm.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DJB.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ELFAttributeParser.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ELFAttributes.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Error.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ErrorHandling.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ExtensibleRTTI.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FileCollector.cpp.o
+[  6%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FileUtilities.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FileOutputBuffer.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FoldingSet.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FormattedStream.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/FormatVariadic.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/GlobPattern.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/GraphWriter.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Hashing.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/InitLLVM.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/InstructionCost.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/IntEqClasses.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/IntervalMap.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ItaniumManglingCanonicalizer.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/KnownBits.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/LEB128.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/LineIterator.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Locale.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/LockFileManager.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/LowLevelType.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ManagedStatic.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MathExtras.cpp.o
+[  8%] Linking CXX shared library ../../../lib/libbenchmark.so
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MemAlloc.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBuffer.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBufferRef.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/MD5.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/NativeFormatting.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/OptimizedStructLayout.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Optional.cpp.o
+[  8%] Built target benchmark
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Parallel.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/PluginLoader.cpp.o
+[  8%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/PrettyStackTrace.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RandomNumberGenerator.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Regex.cpp.o
+[  8%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributes.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributeParser.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ScaledNumber.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ScopedPrinter.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SHA1.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SmallPtrSet.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SourceMgr.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SmallVector.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SpecialCaseList.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Statistic.cpp.o
+[ 10%] Linking CXX shared library ../../../lib/libbenchmark_main.so
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringExtras.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringMap.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringSaver.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/StringRef.cpp.o
+[ 10%] Built target benchmark_main
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SuffixTree.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SymbolRemappingReader.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SystemUtils.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TarWriter.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TargetParser.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ThreadPool.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Timer.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ToolOutputFile.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TrigramIndex.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Triple.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Twine.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Unicode.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/UnicodeCaseFold.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VersionTuple.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/WithColor.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/X86TargetParser.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLParser.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLTraits.cpp.o
+[ 10%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/raw_os_ostream.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/raw_ostream.cpp.o
+[ 11%] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regcomp.c.o
+[ 11%] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regerror.c.o
+[ 11%] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regexec.c.o
+[ 11%] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regfree.c.o
+[ 11%] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regstrlcpy.c.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/xxhash.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Z3Solver.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Atomic.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DynamicLibrary.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Errno.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Host.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Memory.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Path.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Process.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Program.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RWMutex.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signals.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TargetRegistry.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ThreadLocal.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Threading.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Valgrind.cpp.o
+[ 11%] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Watchdog.cpp.o
+[ 11%] Linking CXX shared library ../libLLVMSupport.so
+[ 11%] Built target LLVMSupport
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o
+[ 11%] Building CXX object lib/Bitstream/Reader/CMakeFiles/LLVMBitstreamReader.dir/BitstreamReader.cpp.o
+[ 11%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/AMDGPUMetadataVerifier.cpp.o
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o
+[ 11%] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MappedBlockStream.cpp.o
+[ 11%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Dwarf.cpp.o
+[ 11%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MachO.cpp.o
+[ 11%] Building CXX object lib/FileCheck/CMakeFiles/LLVMFileCheck.dir/FileCheck.cpp.o
+[ 11%] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFBuilder.cpp.o
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o
+[ 11%] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFCommon.cpp.o
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+[ 11%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Magic.cpp.o
+[ 11%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Minidump.cpp.o
+[ 11%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o
+[ 11%] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFError.cpp.o
+[ 13%] Building CXX object lib/Extensions/CMakeFiles/LLVMExtensions.dir/Extensions.cpp.o
+[ 13%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackDocument.cpp.o
+[ 15%] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Arg.cpp.o
+[ 15%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/StringMatcher.cpp.o
+[ 15%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackend.cpp.o
+[ 15%] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[ 15%] Building CXX object lib/LineEditor/CMakeFiles/LLVMLineEditor.dir/LineEditor.cpp.o
+[ 15%] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Option.cpp.o
+[ 15%] Building CXX object utils/unittest/CMakeFiles/gtest.dir/googletest/src/gtest-all.cc.o
+[ 15%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackDocumentYAML.cpp.o
+[ 15%] Building CXX object utils/unittest/CMakeFiles/gtest.dir/googlemock/src/gmock-all.cc.o
+[ 15%] Building CXX object lib/WindowsManifest/CMakeFiles/LLVMWindowsManifest.dir/WindowsManifestMerger.cpp.o
+[ 15%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackReader.cpp.o
+[ 15%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackendSkeleton.cpp.o
+[ 15%] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[ 15%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/MsgPackWriter.cpp.o
+[ 15%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGLexer.cpp.o
+[ 15%] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[ 15%] Building CXX object utils/not/CMakeFiles/not.dir/not.cpp.o
+[ 15%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/Wasm.cpp.o
+[ 15%] Building CXX object utils/yaml-bench/CMakeFiles/yaml-bench.dir/YAMLBench.cpp.o
+[ 15%] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/XCOFF.cpp.o
+[ 15%] Building CXX object tools/llvm-config/CMakeFiles/llvm-config.dir/llvm-config.cpp.o
+[ 15%] Building CXX object tools/llvm-cxxfilt/CMakeFiles/llvm-cxxfilt.dir/llvm-cxxfilt.cpp.o
+[ 15%] Building CXX object tools/llvm-undname/CMakeFiles/llvm-undname.dir/llvm-undname.cpp.o
+[ 15%] Building CXX object tools/split-file/CMakeFiles/split-file.dir/split-file.cpp.o
+[ 15%] Linking CXX shared library ../libLLVMExtensions.so
+[ 15%] Linking CXX executable ../../bin/not
+[ 15%] Linking CXX shared library ../libLLVMLineEditor.so
+[ 15%] Built target LLVMExtensions
+[ 15%] Built target not
+[ 15%] Linking CXX shared library ../libLLVMWindowsManifest.so
+[ 15%] Built target LLVMLineEditor
+[ 15%] Built target LLVMWindowsManifest
+[ 16%] Linking CXX shared library ../libLLVMBinaryFormat.so
+[ 16%] Built target LLVMBinaryFormat
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/ArchitectureSet.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Architecture.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/InterfaceFile.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/PackedVersion.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Platform.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Symbol.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/Target.cpp.o
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/TextStub.cpp.o
+[ 16%] Linking CXX executable ../../bin/llvm-undname
+[ 16%] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/MachO/TextStubCommon.cpp.o
+[ 16%] Linking CXX executable ../../bin/split-file
+[ 16%] Built target llvm-undname
+[ 18%] Linking CXX executable ../../bin/llvm-cxxfilt
+[ 18%] Built target split-file
+[ 18%] Linking CXX shared library ../../libLLVMDebugInfoMSF.so
+[ 18%] Linking CXX executable ../../bin/yaml-bench
+[ 18%] Linking CXX executable ../../bin/llvm-config
+[ 18%] Built target llvm-cxxfilt
+[ 18%] Built target yaml-bench
+[ 18%] Built target LLVMDebugInfoMSF
+[ 18%] Built target llvm-config
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/AppendingTypeTableBuilder.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewError.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewRecordIO.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/ContinuationRecordBuilder.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugChecksumsSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossExSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugFrameDataSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossImpSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugInlineeLinesSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugLinesSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugStringTableSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionRecord.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionVisitor.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolRVASubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolsSubsection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/EnumTables.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Formatters.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/GlobalTypeTableBuilder.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/LazyRandomTypeCollection.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Line.cpp.o
+[ 18%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/MergingTypeTableBuilder.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordName.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordSerialization.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SimpleTypeSerializer.cpp.o
+[ 20%] Linking CXX shared library ../libLLVMOption.so
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/StringsAndChecksums.cpp.o
+[ 20%] Built target LLVMOption
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordHelpers.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordMapping.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolSerializer.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeDumpVisitor.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndex.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndexDiscovery.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeHashing.cpp.o
+[ 20%] Linking CXX shared library ../../libLLVMBitstreamReader.so
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordHelpers.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[ 20%] Built target LLVMBitstreamReader
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkParser.cpp.o
+[ 20%] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/BitstreamRemarkSerializer.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/Remark.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkFormat.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkLinker.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkParser.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkSerializer.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkStreamer.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/RemarkStringTable.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/YAMLRemarkParser.cpp.o
+[ 20%] Building CXX object lib/Remarks/CMakeFiles/LLVMRemarks.dir/YAMLRemarkSerializer.cpp.o
+[ 20%] Linking CXX shared library ../libLLVMTableGen.so
+[ 20%] Built target LLVMTableGen
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/CodeExpander.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDag.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDagEdge.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDagInstr.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDagOperands.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDagPredicate.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchDagPredicateDependencyEdge.cpp.o
+[ 20%] Building CXX object utils/TableGen/GlobalISel/CMakeFiles/LLVMTableGenGlobalISel.dir/GIMatchTree.cpp.o
+[ 20%] Linking CXX shared library ../libLLVMRemarks.so
+[ 20%] Linking CXX shared library ../libLLVMFileCheck.so
+[ 20%] Built target LLVMRemarks
+[ 20%] Building CXX object tools/remarks-shlib/CMakeFiles/Remarks.dir/libremarks.cpp.o
+[ 20%] Built target obj.llvm-tblgen
+[ 20%] Built target LLVMFileCheck
+[ 20%] Building CXX object utils/FileCheck/CMakeFiles/FileCheck.dir/FileCheck.cpp.o
+[ 20%] Linking CXX shared library ../../lib/libRemarks.so
+[ 20%] Built target Remarks
+[ 20%] Linking CXX shared library ../../lib/libgtest.so
+[ 20%] Built target gtest
+[ 20%] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Annotations.cpp.o
+[ 20%] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/Error.cpp.o
+[ 20%] Building CXX object utils/unittest/UnitTestMain/CMakeFiles/gtest_main.dir/TestMain.cpp.o
+[ 20%] Building CXX object lib/Testing/Support/CMakeFiles/LLVMTestingSupport.dir/SupportHelpers.cpp.o
+[ 20%] Linking CXX shared library ../libLLVMTextAPI.so
+[ 20%] Built target LLVMTextAPI
+[ 20%] Linking CXX shared library ../../libLLVMTestingSupport.so
+[ 20%] Linking CXX shared library ../../../lib/libgtest_main.so
+[ 20%] Built target LLVMTestingSupport
+[ 20%] Built target gtest_main
+[ 20%] Linking CXX executable ../../bin/FileCheck
+[ 20%] Built target FileCheck
+[ 20%] Linking CXX static library ../../../lib/libLLVMTableGenGlobalISel.a
+[ 20%] Linking CXX shared library ../../libLLVMDebugInfoCodeView.so
+[ 20%] Built target LLVMTableGenGlobalISel
+[ 20%] Linking CXX executable ../../bin/llvm-tblgen
+[ 20%] Built target LLVMDebugInfoCodeView
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ConstantPools.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ELFObjectWriter.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmBackend.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfo.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoDarwin.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoCOFF.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoELF.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoWasm.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmInfoXCOFF.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmMacro.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAsmStreamer.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCAssembler.cpp.o
+[ 20%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeEmitter.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCCodeView.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCContext.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCDwarf.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFObjectTargetWriter.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCELFStreamer.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCExpr.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCFragment.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInst.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstPrinter.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrAnalysis.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrDesc.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCInstrInfo.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLabel.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCLinkerOptimizationHint.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachOStreamer.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCMachObjectTargetWriter.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCNullStreamer.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectFileInfo.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectStreamer.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCObjectWriter.cpp.o
+[ 22%] Built target llvm-tblgen
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCPseudoProbe.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCRegisterInfo.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSchedule.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSection.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionCOFF.cpp.o
+[ 22%] Building ACC.cpp...
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionELF.cpp.o
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionMachO.cpp.o
+[ 22%] Building Attributes.inc...
+[ 22%] Building ACC.h.inc...
+[ 22%] Building IntrinsicImpl.inc...
+[ 22%] Building ACC.inc...
+[ 22%] Building OMP.h.inc...
+[ 22%] Building IntrinsicEnums.inc...
+[ 22%] Built target acc_cpp
+[ 22%] Building OMP.cpp...
+[ 22%] Building IntrinsicsAArch64.h...
+[ 22%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionWasm.cpp.o
+[ 22%] Building OMP.inc...
+[ 22%] Building Options.inc...
+[ 22%] Built target acc_gen
+[ 22%] Built target omp_cpp
+[ 22%] Building Options.inc...
+[ 22%] Built target omp_gen
+[ 22%] Built target DllOptionsTableGen
+[ 23%] Building Options.inc...
+[ 23%] Building IntrinsicsAMDGPU.h...
+[ 23%] Built target LibOptionsTableGen
+[ 23%] Building Opts.inc...
+[ 23%] Building LipoOpts.inc...
+[ 23%] Built target DsymutilTableGen
+[ 23%] Built target CvtResTableGen
+[ 23%] Building Opts.inc...
+[ 23%] Built target LipoOptsTableGen
+[ 23%] Building Opts.inc...
+[ 23%] Built target MLTableGen
+[ 23%] Building ObjcopyOpts.inc...
+[ 23%] Built target MtTableGen
+[ 23%] Building Opts.inc...
+[ 23%] Built target ObjcopyOptsTableGen
+[ 23%] Building Opts.inc...
+[ 23%] Built target RcTableGen
+[ 23%] Building CXX object lib/Frontend/OpenACC/CMakeFiles/LLVMFrontendOpenACC.dir/ACC.cpp.o
+[ 23%] Building IntrinsicsARM.h...
+[ 23%] Built target SymbolizerOptsTableGen
+[ 23%] Building IntrinsicsBPF.h...
+[ 23%] Building CXX object tools/llvm-mt/CMakeFiles/llvm-mt.dir/llvm-mt.cpp.o
+[ 23%] Building InstallNameToolOpts.inc...
+[ 23%] Building IntrinsicsHexagon.h...
+[ 23%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/llvm-rc.cpp.o
+[ 23%] Built target InstallNameToolOptsTableGen
+[ 23%] Building IntrinsicsMips.h...
+[ 23%] Building BitcodeStripOpts.inc...
+[ 23%] Built target BitcodeStripOptsTableGen
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSectionXCOFF.cpp.o
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCStreamer.cpp.o
+[ 23%] Building StripOpts.inc...
+[ 23%] Built target StripOptsTableGen
+[ 23%] Building IntrinsicsNVPTX.h...
+[ 23%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/ResourceFileWriter.cpp.o
+[ 23%] Building IntrinsicsPowerPC.h...
+[ 23%] Building IntrinsicsR600.h...
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSubtargetInfo.cpp.o
+[ 23%] Building IntrinsicsRISCV.h...
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbol.cpp.o
+[ 23%] Building IntrinsicsS390.h...
+[ 23%] Building IntrinsicsWebAssembly.h...
+[ 23%] Building IntrinsicsX86.h...
+[ 23%] Building IntrinsicsXCore.h...
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolELF.cpp.o
+[ 23%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCSymbolXCOFF.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptions.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCTargetOptionsCommandFlags.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCValue.cpp.o
+[ 25%] Building IntrinsicsVE.h...
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmObjectTargetWriter.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWasmStreamer.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWin64EH.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinCOFFStreamer.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCWinEH.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFObjectTargetWriter.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCXCOFFStreamer.cpp.o
+[ 25%] Linking CXX shared library ../../libLLVMFrontendOpenACC.so
+[ 25%] Built target intrinsics_gen
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MachObjectWriter.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AbstractCallSite.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/StringTableBuilder.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/SubtargetFeature.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WasmObjectWriter.cpp.o
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/WinCOFFObjectWriter.cpp.o
+[ 25%] Built target LLVMFrontendOpenACC
+[ 25%] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/XCOFFObjectWriter.cpp.o
+[ 25%] Building CXX object lib/Transforms/Hello/CMakeFiles/LLVMHello.dir/Hello.cpp.o
+[ 25%] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/OrcError.cpp.o
+[ 25%] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/RPCError.cpp.o
+[ 25%] Building CXX object lib/ExecutionEngine/Orc/Shared/CMakeFiles/LLVMOrcShared.dir/TargetProcessControlTypes.cpp.o
+[ 25%] Building X86GenAsmMatcher.inc...
+[ 25%] Building NVPTXGenAsmWriter.inc...
+[ 25%] Building CXX object examples/Bye/CMakeFiles/Bye.dir/Bye.cpp.o
+[ 25%] Building CXX object unittests/Passes/CMakeFiles/TestPlugin.dir/TestPlugin.cpp.o
+[ 25%] Building NVPTXGenDAGISel.inc...
+[ 25%] Building X86GenAsmWriter.inc...
+[ 25%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/ResourceScriptCppFilter.cpp.o
+[ 25%] Building X86GenAsmWriter1.inc...
+[ 25%] Building X86GenCallingConv.inc...
+[ 25%] Building X86GenDAGISel.inc...
+[ 25%] Linking CXX executable ../../bin/llvm-mt
+[ 25%] Built target llvm-mt
+[ 25%] Building X86GenDisassemblerTables.inc...
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Assumptions.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o
+[ 25%] Building NVPTXGenInstrInfo.inc...
+[ 25%] Building NVPTXGenRegisterInfo.inc...
+[ 25%] Building NVPTXGenSubtargetInfo.inc...
+[ 25%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/ResourceScriptParser.cpp.o
+[ 25%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/ResourceScriptStmt.cpp.o
+[ 25%] Building CXX object tools/llvm-rc/CMakeFiles/llvm-rc.dir/ResourceScriptToken.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Comdat.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRange.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Constants.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Core.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DIBuilder.cpp.o
+[ 25%] Linking CXX shared library ../../../libLLVMOrcShared.so
+[ 25%] Linking CXX shared module ../../LLVMHello.so
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DataLayout.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfo.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o
+[ 25%] Built target LLVMHello
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugLoc.cpp.o
+[ 25%] Built target LLVMOrcShared
+[ 25%] Building X86GenEVEX2VEXTables.inc...
+[ 25%] Building CXX object lib/ExecutionEngine/Orc/TargetProcess/CMakeFiles/LLVMOrcTargetProcess.dir/RegisterEHFrames.cpp.o
+[ 25%] Building CXX object lib/ExecutionEngine/Orc/TargetProcess/CMakeFiles/LLVMOrcTargetProcess.dir/TargetExecutionUtils.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticHandler.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticInfo.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticPrinter.cpp.o
+[ 25%] Building X86GenExegesis.inc...
+[ 25%] Building X86GenFastISel.inc...
+[ 25%] Building X86GenGlobalISel.inc...
+[ 25%] Building X86GenInstrInfo.inc...
+[ 25%] Building X86GenRegisterBank.inc...
+[ 25%] Built target NVPTXCommonTableGen
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Dominators.cpp.o
+[ 25%] Building X86GenRegisterInfo.inc...
+[ 25%] Building CXX object lib/Target/NVPTX/TargetInfo/CMakeFiles/LLVMNVPTXInfo.dir/NVPTXTargetInfo.cpp.o
+[ 25%] Building X86GenSubtargetInfo.inc...
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/FPEnv.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Function.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/GVMaterializer.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Globals.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IRBuilder.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IRPrintingPasses.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/InlineAsm.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Instruction.cpp.o
+[ 25%] Linking CXX shared library ../../../libLLVMNVPTXInfo.so
+[ 25%] Linking CXX shared library ../../../libLLVMOrcTargetProcess.so
+[ 25%] Built target LLVMNVPTXInfo
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Instructions.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IntrinsicInst.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMContext.cpp.o
+[ 25%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMContextImpl.cpp.o
+[ 25%] Built target LLVMOrcTargetProcess
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMRemarkStreamer.cpp.o
+[ 27%] Building CXX object tools/llvm-jitlink/llvm-jitlink-executor/CMakeFiles/llvm-jitlink-executor.dir/llvm-jitlink-executor.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LegacyPassManager.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/MDBuilder.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Mangler.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Metadata.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Module.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ModuleSummaryIndex.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Operator.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/OptBisect.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Pass.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassInstrumentation.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassManager.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassRegistry.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassTimingInfo.cpp.o
+[ 27%] Linking CXX shared module TestPlugin.so
+[ 27%] Built target TestPlugin
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PrintPasses.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/SafepointIRVerifier.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ProfileSummary.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PseudoProbe.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ReplaceConstant.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Statepoint.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/StructuralHash.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Type.cpp.o
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/TypeFinder.cpp.o
+[ 27%] Linking CXX executable ../../bin/llvm-rc
+[ 27%] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Use.cpp.o
+[ 27%] Linking CXX shared module ../../lib/Bye.so
+[ 27%] Linking CXX shared library ../libLLVMMC.so

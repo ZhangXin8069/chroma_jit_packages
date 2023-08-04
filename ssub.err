@@ -10,3 +10,155 @@ Also make sure that all modulefiles written in TCL start with the string
 
 
 
+Lmod has detected the following error: The following module(s) are unknown:
+"hdf5/1.14.0-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "hdf5/1.14.0-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi/4.1.2-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "openmpi/4.1.2-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+mkdir: cannot create directory ‘/public/home/zhangxin/external-libraries/chroma_jit_packages/install/build’: File exists
+configure: WARNING: using cross tools not prefixed with host triplet
+configure: error: in `/public/home/zhangxin/external-libraries/chroma_jit_packages/install/build/build_qmp':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target `install'.  Stop.
+Lmod has detected the following error: The following module(s) are unknown:
+"hdf5/1.14.0-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "hdf5/1.14.0-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi/4.1.2-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "openmpi/4.1.2-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+mkdir: cannot create directory ‘/public/home/zhangxin/external-libraries/chroma_jit_packages/install/build’: File exists
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:51: warning: macro 'AM_PROG_LIBTOOL' not found in library
+configure.in:47: error: automatic de-ANSI-fication support has been removed
+/public/soft/linux-centos7-x86_64/intel-2022.0.2/automake-1.16.5-r4escl2x7fqbxm5kza7y3tmr5olrbuyo/share/aclocal-1.16/obsolete.m4:26: AM_C_PROTOTYPES is expanded from...
+configure.in:47: the top level
+autom4te: /public/soft/linux-centos7-x86_64/intel-2022.0.2/m4-1.4.19-yixa4tellvlfyj24cw2fm54azj5cbpyu/bin/m4 failed with exit status: 1
+aclocal: error: /public/soft/linux-centos7-x86_64/intel-2022.0.2/autoconf-2.69-nyosqmu3uenjwsv3v46r25f7x5bhjt7j/bin/autom4te failed with exit status: 1
+autoreconf: aclocal failed with exit status: 1
+configure: WARNING: using cross tools not prefixed with host triplet
+configure: error: in `/public/home/zhangxin/external-libraries/chroma_jit_packages/install/build/build_libxml2':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+cp: cannot stat ‘Makefile’: No such file or directory
+sed: can't read Makefile: No such file or directory
+make: *** No targets.  Stop.
+make: *** No rule to make target `install'.  Stop.
+Lmod has detected the following error: The following module(s) are unknown:
+"hdf5/1.14.0-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "hdf5/1.14.0-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"openmpi/4.1.2-gcc-10.3.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "openmpi/4.1.2-gcc-10.3.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+mkdir: cannot create directory ‘/public/home/zhangxin/external-libraries/chroma_jit_packages/install/build’: File exists
+autoreconf: 'configure.ac' or 'configure.in' is required
+-- Version: 0.0.0
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+In file included from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.h:25,
+                 from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/RegisterInfoEmitter.cpp:15:
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In member function 'void llvm::SparseBitVector<ElementSize>::SparseBitVectorIterator::AdvanceToFirstNonZero() [with unsigned int ElementSize = 128]':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+In file included from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.h:25,
+                 from /public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/utils/TableGen/CodeGenRegisters.cpp:14:
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In member function 'unsigned int llvm::CodeGenRegister::getWeight(const llvm::CodeGenRegBank&) const':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In function 'bool normalizeWeight(llvm::CodeGenRegister*, std::vector<{anonymous}::UberRegSet>&, std::vector<{anonymous}::UberRegSet*>&, llvm::BitVector&, llvm::CodeGenRegister::RegUnitList&, llvm::CodeGenRegBank&)':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h: In member function 'void llvm::CodeGenRegisterClass::buildRegUnitSet(const llvm::CodeGenRegBank&, std::vector<unsigned int>&) const':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:129:15: warning: array subscript 2 is above array bounds of 'const BitWord [2]' {aka 'const long unsigned int [2]'} [-Warray-bounds]
+  129 |       if (Bits[i] != 0)
+      |           ~~~~^
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/include/llvm/ADT/SparseBitVector.h:54:11: note: while referencing 'llvm::SparseBitVectorElement<128>::Bits'
+   54 |   BitWord Bits[BITWORDS_PER_ELEMENT];
+      |           ^~~~
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/lib/IR/Core.cpp: In function 'void LLVMContextSetDiagnosticHandler(LLVMContextRef, LLVMDiagnosticHandler, void*)':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/lib/IR/Core.cpp:87:22: warning: cast between incompatible function types from 'LLVMDiagnosticHandler' {aka 'void (*)(LLVMOpaqueDiagnosticInfo*, void*)'} to 'llvm::DiagnosticHandler::DiagnosticHandlerTy' {aka 'void (*)(const llvm::DiagnosticInfo&, void*)'} [-Wcast-function-type]
+   87 |       LLVM_EXTENSION reinterpret_cast<DiagnosticHandler::DiagnosticHandlerTy>(
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   88 |           Handler),
+      |           ~~~~~~~~    
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/lib/IR/Core.cpp: In function 'void (* LLVMContextGetDiagnosticHandler(LLVMContextRef))(LLVMDiagnosticInfoRef, void*)':
+/public/home/zhangxin/external-libraries/chroma_jit_packages/llvm/lib/IR/Core.cpp:93:25: warning: cast between incompatible function types from 'llvm::DiagnosticHandler::DiagnosticHandlerTy' {aka 'void (*)(const llvm::DiagnosticInfo&, void*)'} to 'LLVMDiagnosticHandler' {aka 'void (*)(LLVMOpaqueDiagnosticInfo*, void*)'} [-Wcast-function-type]
+   93 |   return LLVM_EXTENSION reinterpret_cast<LLVMDiagnosticHandler>(
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   94 |       unwrap(C)->getDiagnosticHandlerCallBack());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
