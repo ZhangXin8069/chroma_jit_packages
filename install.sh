@@ -7,7 +7,6 @@ pushd ${_PATH}
 source ./env.sh
 popd
 
-
 pushd ${install_path}
 tar xzf ${file_path}/chroma_jit_packages.tar.gz && pushd ./chroma_jit_packages/install
 bash ./build_qmp.sh
