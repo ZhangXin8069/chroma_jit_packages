@@ -12,7 +12,432 @@ HOME:/public/home/zhangxin/zuda
 ~ ~/chroma_jit_packages
 ~/pyquda_packages ~ ~/chroma_jit_packages
 ~ ~/chroma_jit_packages
-~/chroma_jit_packages ~
-~
 ~/external-libraries ~
 ~/external-libraries/chroma_jit_packages/install ~/external-libraries ~
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/qmp ~/external-libraries/chroma_jit_packages/install/build/build_qmp ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_qmp ~/external-libraries/chroma_jit_packages/install
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for x86_64-linux-gnu-strip... no
+checking for strip... strip
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-linux-gnu-c99... mpicc
+checking whether the C compiler works... no
+~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/libxml2 ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+checking build system type... x86_64-suse-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for x86_64-unknown-linux-strip... no
+checking for strip... strip
+checking for x86_64-unknown-linux-gcc... mpicc
+checking whether the C compiler works... no
+~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/llvm ~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+~/external-libraries/chroma_jit_packages/install/build/build_llvm ~/external-libraries/chroma_jit_packages/install/build ~/external-libraries/chroma_jit_packages/install
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- clang project is disabled
+-- clang-tools-extra project is disabled
+-- compiler-rt project is disabled
+-- debuginfo-tests project is disabled
+-- libc project is disabled
+-- libclc project is disabled
+-- libcxx project is disabled
+-- libcxxabi project is disabled
+-- libunwind project is disabled
+-- lld project is disabled
+-- lldb project is disabled
+-- mlir project is disabled
+-- openmp project is disabled
+-- parallel-libs project is disabled
+-- polly project is disabled
+-- pstl project is disabled
+-- flang project is disabled
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for link.h
+-- Looking for link.h - found
+-- Looking for malloc/malloc.h
+-- Looking for malloc/malloc.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for sys/ioctl.h
+-- Looking for sys/ioctl.h - found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sysexits.h
+-- Looking for sysexits.h - found
+-- Looking for termios.h
+-- Looking for termios.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for valgrind/valgrind.h
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for FE_ALL_EXCEPT
+-- Looking for FE_ALL_EXCEPT - found
+-- Looking for FE_INEXACT
+-- Looking for FE_INEXACT - found
+-- Looking for mach/mach.h
+-- Looking for mach/mach.h - not found
+-- Looking for histedit.h
+-- Looking for histedit.h - not found
+-- Looking for CrashReporterClient.h
+-- Looking for CrashReporterClient.h - not found
+-- Looking for linux/magic.h
+-- Looking for linux/magic.h - found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_getspecific in pthread
+-- Looking for pthread_getspecific in pthread - found
+-- Looking for pthread_rwlock_init in pthread
+-- Looking for pthread_rwlock_init in pthread - found
+-- Looking for pthread_mutex_lock in pthread
+-- Looking for pthread_mutex_lock in pthread - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for pfm_initialize in pfm
+-- Looking for pfm_initialize in pfm - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Looking for xar_open in xar
+-- Looking for xar_open in xar - not found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Looking for __register_frame
+-- Looking for __register_frame - found
+-- Looking for __deregister_frame
+-- Looking for __deregister_frame - found
+-- Looking for _Unwind_Backtrace
+-- Looking for _Unwind_Backtrace - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for isatty
+-- Looking for isatty - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Looking for sigaltstack
+-- Looking for sigaltstack - found
+-- Looking for lseek64
+-- Looking for lseek64 - found
+-- Looking for mallctl
+-- Looking for mallctl - not found
+-- Looking for mallinfo
+-- Looking for mallinfo - found
+-- Looking for malloc_zone_statistics
+-- Looking for malloc_zone_statistics - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for posix_spawn
+-- Looking for posix_spawn - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for sbrk
+-- Looking for sbrk - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for strerror_s
+-- Looking for strerror_s - not found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dladdr
+-- Looking for dladdr - not found
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB - Success
+-- Performing Test LLVM_HAS_ATOMICS
+-- Performing Test LLVM_HAS_ATOMICS - Success
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG
+-- Performing Test SUPPORTS_VARIADIC_MACROS_FLAG - Success
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG - Failed
+-- Performing Test HAS_MAYBE_UNINITIALIZED
+-- Performing Test HAS_MAYBE_UNINITIALIZED - Success
+-- Native target architecture is X86
+-- Threads enabled.
+-- Doxygen disabled.
+-- Go bindings disabled.
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- OCaml bindings disabled.
+-- Could NOT find Python module pygments
+-- Could NOT find Python module pygments.lexers.c_cpp
+-- Could NOT find Python module yaml
+-- LLVM host triple: x86_64-unknown-linux-gnu
+-- LLVM default target triple: x86_64-unknown-linux-gnu
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG - Success
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG
+-- Performing Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG - Success
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG
+-- Performing Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG - Success
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG
+-- Performing Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG - Success
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG
+-- Performing Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Success
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG - Success
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Found Python3: /public/soft/linux-centos7-x86_64/gcc-10.3.0/miniconda3-22.11.1-jrusysshr36o4fjbexlhrpljufoxhu4b/bin/python3.10 (found version "3.10.8") found components: Interpreter 
+-- Linker detection: GNU ld
+-- Found Git: /public/soft/linux-centos7-x86_64/gcc-10.3.0/git-2.40.0-723pst5pdujmhe6kflhgqyhq32ic456l/bin/git (found version "2.40.0") 
+-- Targeting X86
+-- Targeting NVPTX
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Failed to find LLVM FileCheck
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11
+-- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS
+-- Performing Test HAVE_CXX_FLAG_FNO_EXCEPTIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /public/home/zhangxin/external-libraries/chroma_jit_packages/install/build/build_llvm
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[  0%] Generating VCSRevision.h
+[  0%] Creating export file for LLVMHello
+[  0%] Building CXX object utils/PerfectShuffle/CMakeFiles/llvm-PerfectShuffle.dir/PerfectShuffle.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmMatcherEmitter.cpp.o
+[  0%] Building C object utils/count/CMakeFiles/count.dir/count.c.o
+[  0%] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmWriterEmitter.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/AsmWriterInst.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/Attributes.cpp.o
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CallingConvEmitter.cpp.o
+[  0%] Creating export file for LTO
+[  0%] Creating export file for BugpointPasses
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeEmitterGen.cpp.o
+[  0%] Built target LLVMHello_exports
+[  0%] Built target llvm_vcsrevision_h
+[  0%] Creating export file for Remarks
+[  0%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenDAGPatterns.cpp.o
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/DynamicLibraryLib.dir/ExportedFuncs.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenHwModes.cpp.o
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/PipSqueak.dir/PipSqueak.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenInstruction.cpp.o
+[  1%] Built target LTO_exports
+[  1%] Building CXX object unittests/Support/DynamicLibrary/CMakeFiles/SecondLib.dir/PipSqueak.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenMapTable.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenRegisters.cpp.o
+[  1%] Built target BugpointPasses_exports
+[  1%] Built target Remarks_exports
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenSchedule.cpp.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[  1%] Linking C executable ../../bin/count
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CodeGenTarget.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherEmitter.cpp.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelEmitter.cpp.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[  1%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherGen.cpp.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[  1%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcherOpt.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DAGISelMatcher.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DFAEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[  3%] Built target count
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DFAPacketizerEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DirectiveEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/DisassemblerEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/ExegesisEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/FastISelEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/FixedLenDecoderEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/GICombinerEmitter.cpp.o
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/GlobalISelEmitter.cpp.o
+[  3%] Linking CXX static library ../../../lib/libDynamicLibraryLib.a
+[  3%] Built target DynamicLibraryLib
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InfoByHwMode.cpp.o
+[  3%] Linking CXX shared library PipSqueak.so
+[  3%] Linking CXX shared library SecondLib.so
+[  3%] Built target PipSqueak
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InstrInfoEmitter.cpp.o
+[  3%] Built target SecondLib
+[  3%] Building CXX object utils/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/InstrDocsEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/IntrinsicEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptEmitter.cpp.o
+[  3%] Linking CXX executable ../../bin/llvm-PerfectShuffle
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptParserEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/OptRSTEmitter.cpp.o
+[  3%] Built target llvm-PerfectShuffle
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/PredicateExpander.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/PseudoLoweringEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RISCVCompressInstEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RegisterBankEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/RegisterInfoEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SDNodeProperties.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SearchableTableEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SubtargetEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/SubtargetFeatureInfo.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/TableGen.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/Types.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86DisassemblerTables.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86EVEX2VEXTablesEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86FoldTablesEmitter.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86ModRMFilters.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/X86RecognizableInstr.cpp.o
+[  3%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/WebAssemblyDisassemblerEmitter.cpp.o
+[  5%] Building CXX object utils/TableGen/CMakeFiles/obj.llvm-tblgen.dir/CTagsEmitter.cpp.o
